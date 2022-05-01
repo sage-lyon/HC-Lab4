@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u132300/dpcpp-tutorial/matrix-multi
+CMAKE_SOURCE_DIR = /home/u132300/HC-Lab4/matrix-multi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u132300/dpcpp-tutorial/matrix-multi/build
+CMAKE_BINARY_DIR = /home/u132300/HC-Lab4/matrix-multi/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/u132300/dpcpp-tutorial/matrix-multi/build/CMakeFiles /home/u132300/dpcpp-tutorial/matrix-multi/build/src/CMakeFiles/progress.marks
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/u132300/dpcpp-tutorial/matrix-multi/build/CMakeFiles 0
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/u132300/HC-Lab4/matrix-multi/build/CMakeFiles /home/u132300/HC-Lab4/matrix-multi/build/src/CMakeFiles/progress.marks
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/u132300/HC-Lab4/matrix-multi/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ matrix-multi-st-v3.fpga_profile.target: src/CMakeFiles/matrix-multi-st-v3.fpga_p
 
 # fast build rule for target.
 matrix-multi-st-v3.fpga_profile.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.target.dir/build
 .PHONY : matrix-multi-st-v3.fpga_profile.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ matrix-multi-st-v2.fpga_profile: src/CMakeFiles/matrix-multi-st-v2.fpga_profile.
 
 # fast build rule for target.
 matrix-multi-st-v2.fpga_profile/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build
 .PHONY : matrix-multi-st-v2.fpga_profile/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ matrix-multi-st-v1.fpga_profile: src/CMakeFiles/matrix-multi-st-v1.fpga_profile.
 
 # fast build rule for target.
 matrix-multi-st-v1.fpga_profile/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build
 .PHONY : matrix-multi-st-v1.fpga_profile/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ matrix-multi-para-v2.fpga_profile: src/CMakeFiles/matrix-multi-para-v2.fpga_prof
 
 # fast build rule for target.
 matrix-multi-para-v2.fpga_profile/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build
 .PHONY : matrix-multi-para-v2.fpga_profile/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ matrix-multi-para-v2.fpga_profile.target: src/CMakeFiles/matrix-multi-para-v2.fp
 
 # fast build rule for target.
 matrix-multi-para-v2.fpga_profile.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.target.dir/build
 .PHONY : matrix-multi-para-v2.fpga_profile.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ matrix-multi-para-v1.fpga_profile: src/CMakeFiles/matrix-multi-para-v1.fpga_prof
 
 # fast build rule for target.
 matrix-multi-para-v1.fpga_profile/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build
 .PHONY : matrix-multi-para-v1.fpga_profile/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v3.report.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.report.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.report.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.report.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ matrix-multi-st-v3.report: src/CMakeFiles/matrix-multi-st-v3.report.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v3.report/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.report.dir/build.make src/CMakeFiles/matrix-multi-st-v3.report.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.report.dir/build.make src/CMakeFiles/matrix-multi-st-v3.report.dir/build
 .PHONY : matrix-multi-st-v3.report/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v2.report.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.report.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.report.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v2.report.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ matrix-multi-st-v2.report: src/CMakeFiles/matrix-multi-st-v2.report.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v2.report/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.report.dir/build.make src/CMakeFiles/matrix-multi-st-v2.report.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.report.dir/build.make src/CMakeFiles/matrix-multi-st-v2.report.dir/build
 .PHONY : matrix-multi-st-v2.report/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v1.report.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.report.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.report.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v1.report.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ matrix-multi-st-v1.report: src/CMakeFiles/matrix-multi-st-v1.report.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v1.report/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.report.dir/build.make src/CMakeFiles/matrix-multi-st-v1.report.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.report.dir/build.make src/CMakeFiles/matrix-multi-st-v1.report.dir/build
 .PHONY : matrix-multi-st-v1.report/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/rule
 
 # Convenience name for target.
@@ -257,12 +257,12 @@ matrix-multi-para-v1.fpga_profile.target: src/CMakeFiles/matrix-multi-para-v1.fp
 
 # fast build rule for target.
 matrix-multi-para-v1.fpga_profile.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.target.dir/build
 .PHONY : matrix-multi-para-v1.fpga_profile.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v1.report.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.report.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.report.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v1.report.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ matrix-multi-para-v1.report: src/CMakeFiles/matrix-multi-para-v1.report.dir/rule
 
 # fast build rule for target.
 matrix-multi-para-v1.report/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.report.dir/build.make src/CMakeFiles/matrix-multi-para-v1.report.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.report.dir/build.make src/CMakeFiles/matrix-multi-para-v1.report.dir/build
 .PHONY : matrix-multi-para-v1.report/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/rule
 
 # Convenience name for target.
@@ -287,12 +287,12 @@ matrix-multi-st-v1.fpga_profile.target: src/CMakeFiles/matrix-multi-st-v1.fpga_p
 
 # fast build rule for target.
 matrix-multi-st-v1.fpga_profile.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.target.dir/build
 .PHONY : matrix-multi-st-v1.fpga_profile.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/rule
 
 # Convenience name for target.
@@ -302,12 +302,12 @@ matrix-multi-st-v1.fpga_emu.target: src/CMakeFiles/matrix-multi-st-v1.fpga_emu.t
 
 # fast build rule for target.
 matrix-multi-st-v1.fpga_emu.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.target.dir/build
 .PHONY : matrix-multi-st-v1.fpga_emu.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/rule
 
 # Convenience name for target.
@@ -317,12 +317,12 @@ matrix-multi-st-v1.fpga_emu: src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v1.fpga_emu/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build
 .PHONY : matrix-multi-st-v1.fpga_emu/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/rule
 
 # Convenience name for target.
@@ -332,12 +332,12 @@ matrix-multi-para-v2.fpga_emu.target: src/CMakeFiles/matrix-multi-para-v2.fpga_e
 
 # fast build rule for target.
 matrix-multi-para-v2.fpga_emu.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.target.dir/build
 .PHONY : matrix-multi-para-v2.fpga_emu.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/rule
 
 # Convenience name for target.
@@ -347,12 +347,12 @@ matrix-multi-para-v1.fpga_emu: src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/
 
 # fast build rule for target.
 matrix-multi-para-v1.fpga_emu/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build
 .PHONY : matrix-multi-para-v1.fpga_emu/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/rule
 
 # Convenience name for target.
@@ -362,12 +362,12 @@ matrix-multi-para-v2.fpga_emu: src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/
 
 # fast build rule for target.
 matrix-multi-para-v2.fpga_emu/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build
 .PHONY : matrix-multi-para-v2.fpga_emu/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/rule
 
 # Convenience name for target.
@@ -377,12 +377,12 @@ matrix-multi-para-v1.fpga_emu.target: src/CMakeFiles/matrix-multi-para-v1.fpga_e
 
 # fast build rule for target.
 matrix-multi-para-v1.fpga_emu.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.target.dir/build
 .PHONY : matrix-multi-para-v1.fpga_emu.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ matrix-multi-st-v2.fpga_emu: src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v2.fpga_emu/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build
 .PHONY : matrix-multi-st-v2.fpga_emu/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v2.report.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.report.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.report.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v2.report.dir/rule
 
 # Convenience name for target.
@@ -407,12 +407,12 @@ matrix-multi-para-v2.report: src/CMakeFiles/matrix-multi-para-v2.report.dir/rule
 
 # fast build rule for target.
 matrix-multi-para-v2.report/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.report.dir/build.make src/CMakeFiles/matrix-multi-para-v2.report.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.report.dir/build.make src/CMakeFiles/matrix-multi-para-v2.report.dir/build
 .PHONY : matrix-multi-para-v2.report/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v1.fpga.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v1.fpga.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v1.fpga.dir/rule
 
 # Convenience name for target.
@@ -422,12 +422,12 @@ matrix-multi-para-v1.fpga: src/CMakeFiles/matrix-multi-para-v1.fpga.dir/rule
 
 # fast build rule for target.
 matrix-multi-para-v1.fpga/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build
 .PHONY : matrix-multi-para-v1.fpga/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/rule
 
 # Convenience name for target.
@@ -437,12 +437,12 @@ matrix-multi-st-v2.fpga_profile.target: src/CMakeFiles/matrix-multi-st-v2.fpga_p
 
 # fast build rule for target.
 matrix-multi-st-v2.fpga_profile.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.target.dir/build
 .PHONY : matrix-multi-st-v2.fpga_profile.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/rule
 
 # Convenience name for target.
@@ -452,12 +452,12 @@ matrix-multi-st-v2.fpga_emu.target: src/CMakeFiles/matrix-multi-st-v2.fpga_emu.t
 
 # fast build rule for target.
 matrix-multi-st-v2.fpga_emu.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.target.dir/build
 .PHONY : matrix-multi-st-v2.fpga_emu.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-para-v2.fpga.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-para-v2.fpga.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-para-v2.fpga.dir/rule
 
 # Convenience name for target.
@@ -467,12 +467,12 @@ matrix-multi-para-v2.fpga: src/CMakeFiles/matrix-multi-para-v2.fpga.dir/rule
 
 # fast build rule for target.
 matrix-multi-para-v2.fpga/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build
 .PHONY : matrix-multi-para-v2.fpga/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/rule
 
 # Convenience name for target.
@@ -482,12 +482,12 @@ matrix-multi-st-v3.fpga_profile: src/CMakeFiles/matrix-multi-st-v3.fpga_profile.
 
 # fast build rule for target.
 matrix-multi-st-v3.fpga_profile/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build
 .PHONY : matrix-multi-st-v3.fpga_profile/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v1.fpga.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v1.fpga.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v1.fpga.dir/rule
 
 # Convenience name for target.
@@ -497,12 +497,12 @@ matrix-multi-st-v1.fpga: src/CMakeFiles/matrix-multi-st-v1.fpga.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v1.fpga/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build
 .PHONY : matrix-multi-st-v1.fpga/fast
 
 # Convenience name for target.
 src/CMakeFiles/fpga.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/fpga.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/fpga.dir/rule
 .PHONY : src/CMakeFiles/fpga.dir/rule
 
 # Convenience name for target.
@@ -512,12 +512,12 @@ fpga: src/CMakeFiles/fpga.dir/rule
 
 # fast build rule for target.
 fpga/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/fpga.dir/build.make src/CMakeFiles/fpga.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/fpga.dir/build.make src/CMakeFiles/fpga.dir/build
 .PHONY : fpga/fast
 
 # Convenience name for target.
 src/CMakeFiles/report.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/report.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/report.dir/rule
 .PHONY : src/CMakeFiles/report.dir/rule
 
 # Convenience name for target.
@@ -527,12 +527,12 @@ report: src/CMakeFiles/report.dir/rule
 
 # fast build rule for target.
 report/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/report.dir/build.make src/CMakeFiles/report.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/report.dir/build.make src/CMakeFiles/report.dir/build
 .PHONY : report/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/rule
 
 # Convenience name for target.
@@ -542,12 +542,12 @@ matrix-multi-st-v3.fpga_emu: src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v3.fpga_emu/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build
 .PHONY : matrix-multi-st-v3.fpga_emu/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/rule
 
 # Convenience name for target.
@@ -557,12 +557,12 @@ matrix-multi-st-v3.fpga_emu.target: src/CMakeFiles/matrix-multi-st-v3.fpga_emu.t
 
 # fast build rule for target.
 matrix-multi-st-v3.fpga_emu.target/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.target.dir/build
 .PHONY : matrix-multi-st-v3.fpga_emu.target/fast
 
 # Convenience name for target.
 src/CMakeFiles/profile.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/profile.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/profile.dir/rule
 .PHONY : src/CMakeFiles/profile.dir/rule
 
 # Convenience name for target.
@@ -572,12 +572,12 @@ profile: src/CMakeFiles/profile.dir/rule
 
 # fast build rule for target.
 profile/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/profile.dir/build.make src/CMakeFiles/profile.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/profile.dir/build.make src/CMakeFiles/profile.dir/build
 .PHONY : profile/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v2.fpga.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v2.fpga.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v2.fpga.dir/rule
 
 # Convenience name for target.
@@ -587,12 +587,12 @@ matrix-multi-st-v2.fpga: src/CMakeFiles/matrix-multi-st-v2.fpga.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v2.fpga/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build
 .PHONY : matrix-multi-st-v2.fpga/fast
 
 # Convenience name for target.
 src/CMakeFiles/matrix-multi-st-v3.fpga.dir/rule:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga.dir/rule
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/matrix-multi-st-v3.fpga.dir/rule
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.fpga.dir/rule
 
 # Convenience name for target.
@@ -602,7 +602,7 @@ matrix-multi-st-v3.fpga: src/CMakeFiles/matrix-multi-st-v3.fpga.dir/rule
 
 # fast build rule for target.
 matrix-multi-st-v3.fpga/fast:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build
 .PHONY : matrix-multi-st-v3.fpga/fast
 
 matrix-multi-para-v1.o: matrix-multi-para-v1.cpp.o
@@ -611,9 +611,9 @@ matrix-multi-para-v1.o: matrix-multi-para-v1.cpp.o
 
 # target to build an object file
 matrix-multi-para-v1.cpp.o:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/matrix-multi-para-v1.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/matrix-multi-para-v1.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/matrix-multi-para-v1.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/matrix-multi-para-v1.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/matrix-multi-para-v1.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/matrix-multi-para-v1.cpp.o
 .PHONY : matrix-multi-para-v1.cpp.o
 
 matrix-multi-para-v1.i: matrix-multi-para-v1.cpp.i
@@ -622,9 +622,9 @@ matrix-multi-para-v1.i: matrix-multi-para-v1.cpp.i
 
 # target to preprocess a source file
 matrix-multi-para-v1.cpp.i:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/matrix-multi-para-v1.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/matrix-multi-para-v1.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/matrix-multi-para-v1.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/matrix-multi-para-v1.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/matrix-multi-para-v1.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/matrix-multi-para-v1.cpp.i
 .PHONY : matrix-multi-para-v1.cpp.i
 
 matrix-multi-para-v1.s: matrix-multi-para-v1.cpp.s
@@ -633,9 +633,9 @@ matrix-multi-para-v1.s: matrix-multi-para-v1.cpp.s
 
 # target to generate assembly for a file
 matrix-multi-para-v1.cpp.s:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/matrix-multi-para-v1.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/matrix-multi-para-v1.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/matrix-multi-para-v1.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_profile.dir/matrix-multi-para-v1.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga_emu.dir/matrix-multi-para-v1.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v1.fpga.dir/matrix-multi-para-v1.cpp.s
 .PHONY : matrix-multi-para-v1.cpp.s
 
 matrix-multi-para-v2.o: matrix-multi-para-v2.cpp.o
@@ -644,9 +644,9 @@ matrix-multi-para-v2.o: matrix-multi-para-v2.cpp.o
 
 # target to build an object file
 matrix-multi-para-v2.cpp.o:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/matrix-multi-para-v2.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/matrix-multi-para-v2.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/matrix-multi-para-v2.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/matrix-multi-para-v2.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/matrix-multi-para-v2.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/matrix-multi-para-v2.cpp.o
 .PHONY : matrix-multi-para-v2.cpp.o
 
 matrix-multi-para-v2.i: matrix-multi-para-v2.cpp.i
@@ -655,9 +655,9 @@ matrix-multi-para-v2.i: matrix-multi-para-v2.cpp.i
 
 # target to preprocess a source file
 matrix-multi-para-v2.cpp.i:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/matrix-multi-para-v2.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/matrix-multi-para-v2.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/matrix-multi-para-v2.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/matrix-multi-para-v2.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/matrix-multi-para-v2.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/matrix-multi-para-v2.cpp.i
 .PHONY : matrix-multi-para-v2.cpp.i
 
 matrix-multi-para-v2.s: matrix-multi-para-v2.cpp.s
@@ -666,9 +666,9 @@ matrix-multi-para-v2.s: matrix-multi-para-v2.cpp.s
 
 # target to generate assembly for a file
 matrix-multi-para-v2.cpp.s:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/matrix-multi-para-v2.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/matrix-multi-para-v2.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/matrix-multi-para-v2.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_profile.dir/matrix-multi-para-v2.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga_emu.dir/matrix-multi-para-v2.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-para-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-para-v2.fpga.dir/matrix-multi-para-v2.cpp.s
 .PHONY : matrix-multi-para-v2.cpp.s
 
 matrix-multi-st-v1.o: matrix-multi-st-v1.cpp.o
@@ -677,9 +677,9 @@ matrix-multi-st-v1.o: matrix-multi-st-v1.cpp.o
 
 # target to build an object file
 matrix-multi-st-v1.cpp.o:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/matrix-multi-st-v1.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/matrix-multi-st-v1.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/matrix-multi-st-v1.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/matrix-multi-st-v1.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/matrix-multi-st-v1.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/matrix-multi-st-v1.cpp.o
 .PHONY : matrix-multi-st-v1.cpp.o
 
 matrix-multi-st-v1.i: matrix-multi-st-v1.cpp.i
@@ -688,9 +688,9 @@ matrix-multi-st-v1.i: matrix-multi-st-v1.cpp.i
 
 # target to preprocess a source file
 matrix-multi-st-v1.cpp.i:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/matrix-multi-st-v1.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/matrix-multi-st-v1.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/matrix-multi-st-v1.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/matrix-multi-st-v1.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/matrix-multi-st-v1.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/matrix-multi-st-v1.cpp.i
 .PHONY : matrix-multi-st-v1.cpp.i
 
 matrix-multi-st-v1.s: matrix-multi-st-v1.cpp.s
@@ -699,9 +699,9 @@ matrix-multi-st-v1.s: matrix-multi-st-v1.cpp.s
 
 # target to generate assembly for a file
 matrix-multi-st-v1.cpp.s:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/matrix-multi-st-v1.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/matrix-multi-st-v1.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/matrix-multi-st-v1.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_profile.dir/matrix-multi-st-v1.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga_emu.dir/matrix-multi-st-v1.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v1.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v1.fpga.dir/matrix-multi-st-v1.cpp.s
 .PHONY : matrix-multi-st-v1.cpp.s
 
 matrix-multi-st-v2.o: matrix-multi-st-v2.cpp.o
@@ -710,9 +710,9 @@ matrix-multi-st-v2.o: matrix-multi-st-v2.cpp.o
 
 # target to build an object file
 matrix-multi-st-v2.cpp.o:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/matrix-multi-st-v2.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/matrix-multi-st-v2.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/matrix-multi-st-v2.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/matrix-multi-st-v2.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.o
 .PHONY : matrix-multi-st-v2.cpp.o
 
 matrix-multi-st-v2.i: matrix-multi-st-v2.cpp.i
@@ -721,9 +721,9 @@ matrix-multi-st-v2.i: matrix-multi-st-v2.cpp.i
 
 # target to preprocess a source file
 matrix-multi-st-v2.cpp.i:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/matrix-multi-st-v2.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/matrix-multi-st-v2.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/matrix-multi-st-v2.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/matrix-multi-st-v2.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.i
 .PHONY : matrix-multi-st-v2.cpp.i
 
 matrix-multi-st-v2.s: matrix-multi-st-v2.cpp.s
@@ -732,9 +732,9 @@ matrix-multi-st-v2.s: matrix-multi-st-v2.cpp.s
 
 # target to generate assembly for a file
 matrix-multi-st-v2.cpp.s:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/matrix-multi-st-v2.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/matrix-multi-st-v2.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_profile.dir/matrix-multi-st-v2.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga_emu.dir/matrix-multi-st-v2.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v2.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.s
 .PHONY : matrix-multi-st-v2.cpp.s
 
 matrix-multi-st-v3.o: matrix-multi-st-v3.cpp.o
@@ -743,9 +743,9 @@ matrix-multi-st-v3.o: matrix-multi-st-v3.cpp.o
 
 # target to build an object file
 matrix-multi-st-v3.cpp.o:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/matrix-multi-st-v3.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/matrix-multi-st-v3.cpp.o
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/matrix-multi-st-v3.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/matrix-multi-st-v3.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/matrix-multi-st-v3.cpp.o
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/matrix-multi-st-v3.cpp.o
 .PHONY : matrix-multi-st-v3.cpp.o
 
 matrix-multi-st-v3.i: matrix-multi-st-v3.cpp.i
@@ -754,9 +754,9 @@ matrix-multi-st-v3.i: matrix-multi-st-v3.cpp.i
 
 # target to preprocess a source file
 matrix-multi-st-v3.cpp.i:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/matrix-multi-st-v3.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/matrix-multi-st-v3.cpp.i
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/matrix-multi-st-v3.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/matrix-multi-st-v3.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/matrix-multi-st-v3.cpp.i
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/matrix-multi-st-v3.cpp.i
 .PHONY : matrix-multi-st-v3.cpp.i
 
 matrix-multi-st-v3.s: matrix-multi-st-v3.cpp.s
@@ -765,9 +765,9 @@ matrix-multi-st-v3.s: matrix-multi-st-v3.cpp.s
 
 # target to generate assembly for a file
 matrix-multi-st-v3.cpp.s:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/matrix-multi-st-v3.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/matrix-multi-st-v3.cpp.s
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/matrix-multi-st-v3.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_profile.dir/matrix-multi-st-v3.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga_emu.dir/matrix-multi-st-v3.cpp.s
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(MAKE) -f src/CMakeFiles/matrix-multi-st-v3.fpga.dir/build.make src/CMakeFiles/matrix-multi-st-v3.fpga.dir/matrix-multi-st-v3.cpp.s
 .PHONY : matrix-multi-st-v3.cpp.s
 
 # Help Target
@@ -837,6 +837,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

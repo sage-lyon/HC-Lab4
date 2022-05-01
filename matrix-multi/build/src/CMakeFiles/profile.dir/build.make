@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u132300/dpcpp-tutorial/matrix-multi
+CMAKE_SOURCE_DIR = /home/u132300/HC-Lab4/matrix-multi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u132300/dpcpp-tutorial/matrix-multi/build
+CMAKE_BINARY_DIR = /home/u132300/HC-Lab4/matrix-multi/build
 
 # Utility rule file for profile.
 
@@ -67,10 +67,10 @@ src/CMakeFiles/profile.dir/build: profile
 .PHONY : src/CMakeFiles/profile.dir/build
 
 src/CMakeFiles/profile.dir/clean:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build/src && $(CMAKE_COMMAND) -P CMakeFiles/profile.dir/cmake_clean.cmake
+	cd /home/u132300/HC-Lab4/matrix-multi/build/src && $(CMAKE_COMMAND) -P CMakeFiles/profile.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/profile.dir/clean
 
 src/CMakeFiles/profile.dir/depend:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u132300/dpcpp-tutorial/matrix-multi /home/u132300/dpcpp-tutorial/matrix-multi/src /home/u132300/dpcpp-tutorial/matrix-multi/build /home/u132300/dpcpp-tutorial/matrix-multi/build/src /home/u132300/dpcpp-tutorial/matrix-multi/build/src/CMakeFiles/profile.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u132300/HC-Lab4/matrix-multi /home/u132300/HC-Lab4/matrix-multi/src /home/u132300/HC-Lab4/matrix-multi/build /home/u132300/HC-Lab4/matrix-multi/build/src /home/u132300/HC-Lab4/matrix-multi/build/src/CMakeFiles/profile.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/profile.dir/depend
 

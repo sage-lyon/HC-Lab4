@@ -1,4 +1,4 @@
-# Install script for directory: /home/u132300/dpcpp-tutorial/matrix-multi/src
+# Install script for directory: /home/u132300/HC-Lab4/matrix-multi/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

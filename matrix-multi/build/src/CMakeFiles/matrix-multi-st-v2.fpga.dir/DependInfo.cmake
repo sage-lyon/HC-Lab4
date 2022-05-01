@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/u132300/dpcpp-tutorial/matrix-multi/src/matrix-multi-st-v2.cpp" "/home/u132300/dpcpp-tutorial/matrix-multi/build/src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.o"
+  "/home/u132300/HC-Lab4/matrix-multi/src/matrix-multi-st-v2.cpp" "/home/u132300/HC-Lab4/matrix-multi/build/src/CMakeFiles/matrix-multi-st-v2.fpga.dir/matrix-multi-st-v2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

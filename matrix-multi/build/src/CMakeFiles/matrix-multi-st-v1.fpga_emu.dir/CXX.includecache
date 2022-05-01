@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/u132300/dpcpp-tutorial/matrix-multi/src/matrix-multi-st-v1.cpp
+/home/u132300/HC-Lab4/matrix-multi/src/matrix-multi-st-v1.cpp
 CL/sycl.hpp
 -
 array
@@ -14,7 +14,7 @@ array
 iostream
 -
 dpc_common.hpp
-/home/u132300/dpcpp-tutorial/matrix-multi/src/dpc_common.hpp
+/home/u132300/HC-Lab4/matrix-multi/src/dpc_common.hpp
 sycl/ext/intel/fpga_extensions.hpp
 -
 

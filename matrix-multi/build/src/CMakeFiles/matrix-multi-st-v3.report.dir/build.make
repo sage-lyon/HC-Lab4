@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u132300/dpcpp-tutorial/matrix-multi
+CMAKE_SOURCE_DIR = /home/u132300/HC-Lab4/matrix-multi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u132300/dpcpp-tutorial/matrix-multi/build
+CMAKE_BINARY_DIR = /home/u132300/HC-Lab4/matrix-multi/build
 
 # Utility rule file for matrix-multi-st-v3.report.
 
@@ -57,8 +57,8 @@ src/CMakeFiles/matrix-multi-st-v3.report: src/matrix-multi-st-v3_report.a
 
 
 src/matrix-multi-st-v3_report.a: ../src/matrix-multi-st-v3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u132300/dpcpp-tutorial/matrix-multi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating matrix-multi-st-v3_report.a"
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build/src && /glob/development-tools/versions/oneapi/2022.1.2/oneapi/compiler/2022.0.2/linux/bin/dpcpp -fintelfpga -Xshardware -Xsboard=intel_a10gx_pac:pac_a10 -fsycl-link matrix-multi-st-v3.cpp -o /home/u132300/dpcpp-tutorial/matrix-multi/build/matrix-multi-st-v3_report.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u132300/HC-Lab4/matrix-multi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating matrix-multi-st-v3_report.a"
+	cd /home/u132300/HC-Lab4/matrix-multi/build/src && /glob/development-tools/versions/oneapi/2022.1.2/oneapi/compiler/2022.0.2/linux/bin/dpcpp -fintelfpga -Xshardware -Xsboard=intel_a10gx_pac:pac_a10 -fsycl-link matrix-multi-st-v3.cpp -o /home/u132300/HC-Lab4/matrix-multi/build/matrix-multi-st-v3_report.a
 
 matrix-multi-st-v3.report: src/CMakeFiles/matrix-multi-st-v3.report
 matrix-multi-st-v3.report: src/matrix-multi-st-v3_report.a
@@ -72,10 +72,10 @@ src/CMakeFiles/matrix-multi-st-v3.report.dir/build: matrix-multi-st-v3.report
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.report.dir/build
 
 src/CMakeFiles/matrix-multi-st-v3.report.dir/clean:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build/src && $(CMAKE_COMMAND) -P CMakeFiles/matrix-multi-st-v3.report.dir/cmake_clean.cmake
+	cd /home/u132300/HC-Lab4/matrix-multi/build/src && $(CMAKE_COMMAND) -P CMakeFiles/matrix-multi-st-v3.report.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.report.dir/clean
 
 src/CMakeFiles/matrix-multi-st-v3.report.dir/depend:
-	cd /home/u132300/dpcpp-tutorial/matrix-multi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u132300/dpcpp-tutorial/matrix-multi /home/u132300/dpcpp-tutorial/matrix-multi/src /home/u132300/dpcpp-tutorial/matrix-multi/build /home/u132300/dpcpp-tutorial/matrix-multi/build/src /home/u132300/dpcpp-tutorial/matrix-multi/build/src/CMakeFiles/matrix-multi-st-v3.report.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/u132300/HC-Lab4/matrix-multi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u132300/HC-Lab4/matrix-multi /home/u132300/HC-Lab4/matrix-multi/src /home/u132300/HC-Lab4/matrix-multi/build /home/u132300/HC-Lab4/matrix-multi/build/src /home/u132300/HC-Lab4/matrix-multi/build/src/CMakeFiles/matrix-multi-st-v3.report.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/matrix-multi-st-v3.report.dir/depend
 
